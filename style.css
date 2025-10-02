@@ -99,7 +99,6 @@ h2 {
     gap: 10px; /* Adicionado */
 }
 
-/* NOVO ESTILO PARA AS IMAGENS */
 .skills-list li img {
     height: 24px; /* Define a altura do logo */
     width: auto;
@@ -128,7 +127,7 @@ h2 {
 }
 
 .project-card h3 {
-    margin-top: 0;
+    margin: 0;
 }
 
 .project-link {
@@ -173,4 +172,17 @@ footer {
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(30px); }
     to { opacity: 1; transform: translateY(0); }
+}
+
+/* ESTILOS PARA OS LOGOS NOS PROJETOS */
+.project-title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.tech-logo {
+    height: 30px;
+    width: auto;
 }
