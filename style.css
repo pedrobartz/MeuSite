@@ -82,6 +82,7 @@ h2 {
     padding: 0;
     display: flex;
     justify-content: center;
+    align-items: center; /* Alinha verticalmente */
     flex-wrap: wrap;
     gap: 20px;
     margin-top: 30px;
@@ -93,6 +94,15 @@ h2 {
     border-radius: 25px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     font-weight: 400;
+    display: flex; /* Adicionado */
+    align-items: center; /* Adicionado */
+    gap: 10px; /* Adicionado */
+}
+
+/* NOVO ESTILO PARA AS IMAGENS */
+.skills-list li img {
+    height: 24px; /* Define a altura do logo */
+    width: auto;
 }
 
 /* Seção de Projetos */
